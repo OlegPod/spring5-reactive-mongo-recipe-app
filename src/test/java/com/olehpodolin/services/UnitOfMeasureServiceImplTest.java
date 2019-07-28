@@ -1,9 +1,9 @@
 package com.olehpodolin.services;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
-import guru.springframework.repositories.UnitOfMeasureRepository;
+import com.olehpodolin.commands.UnitOfMeasureCommand;
+import com.olehpodolin.converters.UnitOfMeasureToUnitOfMeasureCommand;
+import com.olehpodolin.domain.UnitOfMeasure;
+import com.olehpodolin.repositories.UnitOfMeasureRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

@@ -1,8 +1,9 @@
 package com.olehpodolin.controllers;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.services.ImageService;
-import guru.springframework.services.RecipeService;
+
+import com.olehpodolin.commands.RecipeCommand;
+import com.olehpodolin.services.ImageService;
+import com.olehpodolin.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

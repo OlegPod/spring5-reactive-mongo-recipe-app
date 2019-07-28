@@ -1,7 +1,7 @@
 package com.olehpodolin.services;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
+import com.olehpodolin.domain.Recipe;
+import com.olehpodolin.repositories.RecipeRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

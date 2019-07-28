@@ -1,11 +1,11 @@
 package com.olehpodolin.converters;
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Difficulty;
-import guru.springframework.domain.Recipe;
+import com.olehpodolin.commands.CategoryCommand;
+import com.olehpodolin.commands.IngredientCommand;
+import com.olehpodolin.commands.NotesCommand;
+import com.olehpodolin.commands.RecipeCommand;
+import com.olehpodolin.domain.Difficulty;
+import com.olehpodolin.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
 

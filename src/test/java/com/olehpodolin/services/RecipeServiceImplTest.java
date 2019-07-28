@@ -1,12 +1,12 @@
 package com.olehpodolin.services;
 
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.converters.RecipeCommandToRecipe;
-import guru.springframework.converters.RecipeToRecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.exceptions.NotFoundException;
-import guru.springframework.repositories.RecipeRepository;
+import com.olehpodolin.commands.RecipeCommand;
+import com.olehpodolin.converters.RecipeCommandToRecipe;
+import com.olehpodolin.converters.RecipeToRecipeCommand;
+import com.olehpodolin.domain.Recipe;
+import com.olehpodolin.exceptions.NotFoundException;
+import com.olehpodolin.repositories.RecipeRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

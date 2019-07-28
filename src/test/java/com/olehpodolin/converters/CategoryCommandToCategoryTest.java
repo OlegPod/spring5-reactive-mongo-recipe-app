@@ -1,7 +1,7 @@
 package com.olehpodolin.converters;
 
-import guru.springframework.commands.CategoryCommand;
-import guru.springframework.domain.Category;
+import com.olehpodolin.commands.CategoryCommand;
+import com.olehpodolin.domain.Category;
 import org.junit.Before;
 import org.junit.Test;
 

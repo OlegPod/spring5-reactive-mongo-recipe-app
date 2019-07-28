@@ -1,7 +1,7 @@
 package com.olehpodolin.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.*;
+import com.olehpodolin.commands.RecipeCommand;
+import com.olehpodolin.domain.*;
 import org.junit.Before;
 import org.junit.Test;
 

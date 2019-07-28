@@ -1,7 +1,7 @@
 package com.olehpodolin.converters;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
+import com.olehpodolin.commands.UnitOfMeasureCommand;
+import com.olehpodolin.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 

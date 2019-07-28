@@ -1,14 +1,14 @@
 package com.olehpodolin.services;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.converters.IngredientCommandToIngredient;
-import guru.springframework.converters.IngredientToIngredientCommand;
-import guru.springframework.converters.UnitOfMeasureCommandToUnitOfMeasure;
-import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
-import guru.springframework.repositories.UnitOfMeasureRepository;
+import com.olehpodolin.commands.IngredientCommand;
+import com.olehpodolin.converters.IngredientCommandToIngredient;
+import com.olehpodolin.converters.IngredientToIngredientCommand;
+import com.olehpodolin.converters.UnitOfMeasureCommandToUnitOfMeasure;
+import com.olehpodolin.converters.UnitOfMeasureToUnitOfMeasureCommand;
+import com.olehpodolin.domain.Ingredient;
+import com.olehpodolin.domain.Recipe;
+import com.olehpodolin.repositories.RecipeRepository;
+import com.olehpodolin.repositories.UnitOfMeasureRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

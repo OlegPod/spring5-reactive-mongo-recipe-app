@@ -1,9 +1,9 @@
 package com.olehpodolin.converters;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
+import com.olehpodolin.commands.IngredientCommand;
+import com.olehpodolin.commands.UnitOfMeasureCommand;
+import com.olehpodolin.domain.Ingredient;
+import com.olehpodolin.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
 

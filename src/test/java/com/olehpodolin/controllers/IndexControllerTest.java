@@ -1,7 +1,7 @@
 package com.olehpodolin.controllers;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.services.RecipeService;
+import com.olehpodolin.domain.Recipe;
+import com.olehpodolin.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

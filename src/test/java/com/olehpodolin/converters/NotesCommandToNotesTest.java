@@ -1,7 +1,7 @@
 package com.olehpodolin.converters;
 
-import guru.springframework.commands.NotesCommand;
-import guru.springframework.domain.Notes;
+import com.olehpodolin.commands.NotesCommand;
+import com.olehpodolin.domain.Notes;
 import org.junit.Before;
 import org.junit.Test;
 
