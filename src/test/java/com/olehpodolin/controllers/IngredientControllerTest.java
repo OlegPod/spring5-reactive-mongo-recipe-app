@@ -2,6 +2,7 @@ package com.olehpodolin.controllers;
 
 import com.olehpodolin.commands.IngredientCommand;
 import com.olehpodolin.commands.RecipeCommand;
+import com.olehpodolin.commands.UnitOfMeasureCommand;
 import com.olehpodolin.services.IngredientService;
 import com.olehpodolin.services.RecipeService;
 import com.olehpodolin.services.UnitOfMeasureService;
@@ -12,8 +13,7 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-
-import java.util.HashSet;
+import reactor.core.publisher.Flux;
 
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
@@ -83,7 +83,7 @@ public class IngredientControllerTest {
 
         //when
         when(recipeService.findCommandById(anyString())).thenReturn(recipeCommand);
-        when(unitOfMeasureService.listAllUoms()).thenReturn(new HashSet<>());
+        when(unitOfMeasureService.listAllUoms()).thenReturn(Flux.just(new UnitOfMeasureCommand()));
 
         //then
         mockMvc.perform(get("/recipe/1/ingredient/new"))
@@ -103,7 +103,7 @@ public class IngredientControllerTest {
 
         //when
         when(ingredientService.findByRecipeIdAndIngredientId(anyString(), anyString())).thenReturn(ingredientCommand);
-        when(unitOfMeasureService.listAllUoms()).thenReturn(new HashSet<>());
+        when(unitOfMeasureService.listAllUoms()).thenReturn(Flux.just(new UnitOfMeasureCommand()));
 
         //then
         mockMvc.perform(get("/recipe/1/ingredient/2/update"))
